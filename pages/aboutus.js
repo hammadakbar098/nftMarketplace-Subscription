@@ -9,25 +9,25 @@ import images from "../img";
 const aboutus = () => {
   const founderArray = [
     {
-      name: "Niamh O'Shea",
-      position: "Co-founder and Chief Executive",
+      name: "Manahil Tariq",
+      position: "NEXT.JS Solidity IPFS",
       images: images.founder1,
     },
     {
-      name: "Danien Jame",
-      position: "Co-founder and Chief Executive",
+      name: "Malik Omar",
+      position: "Blockchain Metamask ",
       images: images.founder2,
     },
-    {
-      name: "Orla Dwyer",
-      position: "Co-founder, Chairman",
-      images: images.founder3,
-    },
-    {
-      name: "Dara Frazier",
-      position: "Co-Founder, Chief Strategy Officer",
-      images: images.founder4,
-    },
+    // {
+    //   name: "Orla Dwyer",
+    //   position: "Co-founder, Chairman",
+    //   images: images.founder3,
+    // },
+    // {
+    //   name: "Dara Frazier",
+    //   position: "Co-Founder, Chief Strategy Officer",
+    //   images: images.founder4,
+    // },
   ];
 
   const factsArray = [

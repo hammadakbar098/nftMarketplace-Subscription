@@ -9,12 +9,12 @@ import Style from "./BigNFTSilder.module.css";
 import images from "../../img";
 import Button from "../Button/Button";
 
-const BigNFTSilder = () => {
+const BigNFTSilder = ({ NFTData }) => {
   const [idNumber, setIdNumber] = useState(0);
 
   const sliderData = [
     {
-      title: "Hello NFT",
+      title: "Home NFT",
       id: 1,
       name: "Daulat Hussain",
       collection: "GYm",
@@ -30,14 +30,14 @@ const BigNFTSilder = () => {
       },
     },
     {
-      title: "Buddy NFT",
+      title: "Home NFT",
       id: 2,
       name: "Shoaib Hussain",
       collection: "Home",
       price: "0000004 ETH",
       like: 243,
       image: images.user2,
-      nftImage: images.nft_image_2,
+      nftImage: images.nft_image_1,
       time: {
         days: 77,
         hours: 11,
@@ -46,14 +46,14 @@ const BigNFTSilder = () => {
       },
     },
     {
-      title: "Gym NFT",
+      title: "Home NFT",
       id: 3,
       name: "Raayan Hussain",
       collection: "GYm",
       price: "0000064 ETH",
       like: 243,
       image: images.user3,
-      nftImage: images.nft_image_3,
+      nftImage: images.nft_image_1,
       time: {
         days: 37,
         hours: 20,
@@ -99,7 +99,7 @@ const BigNFTSilder = () => {
         <div className={Style.bigNFTSlider_box_left}>
           <h2>{sliderData[idNumber].title}</h2>
           <div className={Style.bigNFTSlider_box_left_creator}>
-            <div className={Style.bigNFTSlider_box_left_creator_profile}>
+            {/* <div className={Style.bigNFTSlider_box_left_creator_profile}>
               <Image
                 className={Style.bigNFTSlider_box_left_creator_profile_img}
                 src={sliderData[idNumber].image}
@@ -116,9 +116,9 @@ const BigNFTSilder = () => {
                   </span>
                 </h4>
               </div>
-            </div>
+            </div> */}
 
-            <div className={Style.bigNFTSlider_box_left_creator_collection}>
+            {/* <div className={Style.bigNFTSlider_box_left_creator_collection}>
               <AiFillFire
                 className={Style.bigNFTSlider_box_left_creator_collection_icon}
               />
@@ -129,7 +129,7 @@ const BigNFTSilder = () => {
                 <p>Collection</p>
                 <h4>{sliderData[idNumber].collection}</h4>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className={Style.bigNFTSlider_box_left_bidding}>
@@ -198,6 +198,8 @@ const BigNFTSilder = () => {
         <div className={Style.bigNFTSlider_box_right}>
           <div className={Style.bigNFTSlider_box_right_box}>
             <Image
+              width={1200}
+              height={1200}
               src={sliderData[idNumber].nftImage}
               alt="NFT IMAGE"
               className={Style.bigNFTSlider_box_right_box_img}
