@@ -24,8 +24,8 @@ import service1 from "./service-1.png";
 import service2 from "./service-2.png";
 import service3 from "./service-3.png";
 import service4 from "./service-4.png";
-import logoLight from "./logo-light.svg";
-import logo from "./logo.svg";
+import logoLight from "./nftlogo.png";
+import logo from "./nftlogo.png";
 import facebook from "./facebook.svg";
 import twitter from "./twitter.svg";
 import telegram from "./telegram.svg";
@@ -53,6 +53,10 @@ import founder1 from "./founder1.jpg";
 import founder2 from "./founder2.jpg";
 import founder3 from "./founder3.jpg";
 import founder4 from "./founder4.jpg";
+// import samurai from "./samurai.avif";
+import box from "./box.webp";
+import car from "./car.webp";
+// import monk from "./monk.avif";
 
 export default {
   hero2,
@@ -110,4 +114,6 @@ export default {
   vimeo,
   youtube,
   zgcmq,
+  box,
+  car,
 };

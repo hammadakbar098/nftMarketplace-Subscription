@@ -17,7 +17,91 @@
     -0.3rem -0.3rem 1rem var(--shadow-dark-color);
 }
 
-/* //THEME 11 */
+body[data-theme="white"] {
+  --icons-color: #4c5773;
+  --icons-light-color: #4c577341;
+  --icons-bg-color: #e2e6e9;
+  --shadow-dark-color: #d3dae7;
+  --bg-shadow-dark-color: #d3dae745;
+  --shadow-light-color: #fff;
+  --main-bg-color: #ecf0f3;
+
+  --box-shadow: 1rem 1rem 1rem var(--shadow-dark-color),
+    -1rem -1rem 1rem var(--shadow-light-color);
+
+  --box-shadow-2: 0rem 0rem 0rem var(--shadow-dark-color),
+    -0.3rem -0.3rem 1rem var(--shadow-dark-color);
+}
+
+body[data-theme="black-yellow"] {
+  --icons-color: #ffdf2b;
+  --icons-light-color: #ffdf2b57;
+  --icons-bg-color: #ffdf2b;
+  --shadow-dark-color: #555557;
+  --bg-shadow-dark-color: #555557;
+  --shadow-light-color: #232325;
+  --main-bg-color: #232325;
+  --overlay: #2323255e;
+
+  --box-shadow: 1px 1px 2px #ffdf2b, -1px -1px 2px #ffdf2b;
+
+  --box-shadow-2: 1px 1px 2px #ffdf2b, -1px -1px 2px #ffdf2b;
+}
+body[data-theme="black-red"] {
+  --icons-color: #fff;
+  --icons-light-color: #fff57;
+  --icons-bg-color: #fff;
+  --shadow-dark-color: #2e2c2d;
+  --bg-shadow-dark-color: #2e2c2d;
+  --shadow-light-color: #0e131f;
+  --main-bg-color: #0e131f;
+
+  --box-shadow: 1px 1px 2px #8f2c2c, -1px -1px 2px #c13c3c;
+
+  --box-shadow-2: 1px 1px 2px #8f2c2c, -1px -1px 2px #c13c3c;
+}
+
+body[data-theme="black-purple"] {
+  --icons-color: #9001f5;
+  --icons-light-color: #9001f557;
+  --icons-bg-color: #9001f5;
+  --shadow-dark-color: #312f32;
+  --bg-shadow-dark-color: #312f32;
+  --shadow-light-color: #000000;
+  --main-bg-color: #000000;
+
+  --box-shadow: 1px 1px 2px #9001f5, -1px -1px 2px #9001f5;
+
+  --box-shadow-2: 1px 1px 2px #9001f5, -1px -1px 2px #9001f5;
+}
+
+body[data-theme="black-tomato"] {
+  --icons-color: #ee0823;
+  --icons-light-color: #ee082357;
+  --icons-bg-color: #ee0823;
+  --shadow-dark-color: #4f4b4b;
+  --bg-shadow-dark-color: #4f4b4b;
+  --shadow-light-color: #031319;
+  --main-bg-color: #031319;
+
+  --box-shadow: 1px 1px 2px #ee0823, -1px -1px 2px #ee0823;
+
+  --box-shadow-2: 1px 1px 2px #ee0823, -1px -1px 2px #ee0823;
+}
+body[data-theme="black-pink"] {
+  --icons-color: #b901af;
+  --icons-light-color: #b901af57;
+  --icons-bg-color: #b901af;
+  --shadow-dark-color: #343334;
+  --bg-shadow-dark-color: #575357;
+  --shadow-light-color: #290222;
+  --main-bg-color: #290222;
+
+  --box-shadow: 1px 1px 2px #b901af, -1px -1px 2px #b901af;
+
+  --box-shadow-2: 1px 1px 2px #b901af, -1px -1px 2px #b901af;
+}
+/* //THEME 1 */
 /* :root{
   --icons-color: #fff;
   --icons-light-color: #fff57;
@@ -104,6 +188,20 @@
 
 } */
 
+body[data-theme="black-falsa"] {
+  --icons-color: #945361;
+  --icons-light-color: #94536157;
+  --icons-bg-color: #945361;
+  --shadow-dark-color: #484546;
+  --bg-shadow-dark-color: #484546;
+  --shadow-light-color: #30154e;
+  --main-bg-color: #30154e;
+
+  --box-shadow: 1px 1px 2px #945361, -1px -1px 2px #945361;
+
+  --box-shadow-2: 1px 1px 2px #945361, -1px -1px 2px #945361;
+}
+
 /* //THEME 6 */
 /* :root{
   --icons-color: #945361;
@@ -122,6 +220,19 @@
 
 } */
 
+body[data-theme="black-dark-pink"] {
+  --icons-color: #bb22c3;
+  --icons-light-color: #bb22c357;
+  --icons-bg-color: #bb22c3;
+  --shadow-dark-color: #3f3c3f;
+  --bg-shadow-dark-color: #3f3c3f;
+  --shadow-light-color: #30154e;
+  --main-bg-color: #30154e;
+
+  --box-shadow: 1px 1px 2px #bb22c3, -1px -1px 2px #bb22c3;
+
+  --box-shadow-2: 1px 1px 2px #bb22c3, -1px -1px 2px #bb22c3;
+}
 /* //THEME 7 */
 /* :root{
   --icons-color: #BB22C3;
@@ -139,7 +250,19 @@
   -1px -1px 2px #BB22C3;
 
 } */
+body[data-theme="black-orange"] {
+  --icons-color: #ff5b3e;
+  --icons-light-color: #ff5b3e57;
+  --icons-bg-color: #ff5b3e;
+  --shadow-dark-color: #373535;
+  --bg-shadow-dark-color: #373535;
+  --shadow-light-color: #282828;
+  --main-bg-color: #282828;
 
+  --box-shadow: 1px 1px 2px #ff5b3e, -1px -1px 2px #ff5b3e;
+
+  --box-shadow-2: 1px 1px 2px #ff5b3e, -1px -1px 2px #ff5b3e;
+}
 /* //THEME 8 */
 /* :root{
   --icons-color: #FF5B3E;
@@ -157,7 +280,19 @@
   -1px -1px 2px #FF5B3E;
 
 } */
+body[data-theme="black-cyan"] {
+  --icons-color: #5ddee2;
+  --icons-light-color: #5ddee257;
+  --icons-bg-color: #5ddee2;
+  --shadow-dark-color: #373939;
+  --bg-shadow-dark-color: #373939;
+  --shadow-light-color: #1b181e;
+  --main-bg-color: #1b181e;
 
+  --box-shadow: 1px 1px 2px #5ddee2, -1px -1px 2px #5ddee2;
+
+  --box-shadow-2: 1px 1px 2px #5ddee2, -1px -1px 2px #5ddee2;
+}
 /* //THEME 9 */
 /* :root{
   --icons-color: #5DDEE2;
@@ -176,6 +311,19 @@
 
 } */
 
+body[data-theme="black-light-pink"] {
+  --icons-color: #f83166;
+  --icons-light-color: #f8316657;
+  --icons-bg-color: #f83166;
+  --shadow-dark-color: #444142;
+  --bg-shadow-dark-color: #444142;
+  --shadow-light-color: #1e1e1e;
+  --main-bg-color: #1e1e1e;
+
+  --box-shadow: 1px 1px 2px #f83166, -1px -1px 2px #f83166;
+
+  --box-shadow-2: 1px 1px 2px #f83166, -1px -1px 2px #f83166;
+}
 /* //THEME 10 */
 /* :root{
   --icons-color: #F83166;
@@ -194,6 +342,19 @@
 
 } */
 
+body[data-theme="black-maroon"] {
+  --icons-color: #f83166;
+  --icons-light-color: #f8316657;
+  --icons-bg-color: #f83166;
+  --shadow-dark-color: #2e2c2d;
+  --bg-shadow-dark-color: #2e2c2d;
+  --shadow-light-color: #1e1e1e;
+  --main-bg-color: #1e1e1e;
+
+  --box-shadow: 1px 1px 2px #8f2c2c, -1px -1px 2px #c13c3c;
+
+  --box-shadow-2: 1px 1px 2px #8f2c2c, -1px -1px 2px #c13c3c;
+}
 /* //THEME 11 */
 /* :root{
   --icons-color: #F83166;
@@ -259,4 +420,42 @@ a {
     color: white;
     background: black;
   }
+}
+
+.themeChangeParent {
+  width: 300px;
+  height: 120px;
+  /* background-color: rebeccapurple; */
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  z-index: 1111111111111 !important;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+.round {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: wheat;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  transform: rotate(30deg);
+}
+.round .child1 {
+  /* border-left: 50%; */
+  border-radius: 17.5px 17.5px 0 0;
+}
+.round .child2 {
+  /* border-left: 50%; */
+  border-radius: 0 0 17.5px 17.5px;
+}
+.themeChangeAlign {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }

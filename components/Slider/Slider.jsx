@@ -11,11 +11,11 @@ const Slider = () => {
   const FollowingArray = [
     {
       background: images.creatorbackground3,
-      user: images.user3,
+      user: images.user1,
     },
     {
       background: images.creatorbackground4,
-      user: images.user4,
+      user: images.user3,
     },
     {
       background: images.creatorbackground5,
@@ -55,9 +55,9 @@ const Slider = () => {
   return (
     <div className={Style.slider}>
       <div className={Style.slider_box}>
-        <h2>Explore NFTs Video</h2>
+        <h2>Explore The Best NFTS</h2>
         <div className={Style.slider_box_button}>
-          <p>Click on play icon & enjoy Nfts Video</p>
+          {/* <p>Click on play icon & enjoy Nfts Video</p> */}
           <div className={Style.slider_box_button_btn}>
             <div
               className={Style.slider_box_button_btn_icon}

@@ -26,13 +26,13 @@ const NavBar = () => {
   const openMenu = (e) => {
     const btnText = e.target.innerText;
     if (btnText == "Discover") {
-      setDiscover(true);
+      setDiscover(!discover);
       setHelp(false);
       setNotification(false);
       setProfile(false);
     } else if (btnText == "Help Center") {
       setDiscover(false);
-      setHelp(true);
+      setHelp(!help);
       setNotification(false);
       setProfile(false);
     } else {
@@ -85,7 +85,7 @@ const NavBar = () => {
             <Image
               src={images.logo}
               alt="NFT MARKET PLACE"
-              width={100}
+              width={130}
               height={100}
               onClick={() => {
                 router.push("/");
@@ -123,7 +123,10 @@ const NavBar = () => {
           </div>
 
           {/* NOTIFICATION */}
-          <div className={Style.navbar_container_right_notify}>
+          <div
+            className={Style.navbar_container_right_notify}
+            style={{ opacity: 0 }}
+          >
             <MdNotifications
               className={Style.notify}
               onClick={() => openNotification()}

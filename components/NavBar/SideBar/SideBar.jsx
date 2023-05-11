@@ -45,10 +45,10 @@ const SideBar = ({ setOpenSideMenu, currentAccount, connectWallet }) => {
       name: "NFT Details",
       link: "NFT-details",
     },
-    {
-      name: "Account Setting",
-      link: "account",
-    },
+    // {
+    //   name: "Account Setting",
+    //   link: "account",
+    // },
     {
       name: "Upload NFT",
       link: "uploadNFT",
@@ -57,10 +57,10 @@ const SideBar = ({ setOpenSideMenu, currentAccount, connectWallet }) => {
       name: "Connect Wallet",
       link: "connectWallet",
     },
-    {
-      name: "Blog",
-      link: "blog",
-    },
+    // {
+    //   name: "Blog",
+    //   link: "blog",
+    // },
   ];
   //------HELP CNTEER
   const helpCenter = [
@@ -72,18 +72,18 @@ const SideBar = ({ setOpenSideMenu, currentAccount, connectWallet }) => {
       name: "Contact Us",
       link: "contactus",
     },
-    {
-      name: "Sign Up",
-      link: "signUp",
-    },
-    {
-      name: "LogIn",
-      link: "login",
-    },
-    {
-      name: "Subscription",
-      link: "subscription",
-    },
+    // {
+    //   name: "Sign Up",
+    //   link: "signUp",
+    // },
+    // {
+    //   name: "LogIn",
+    //   link: "login",
+    // },
+    // {
+    //   name: "Subscription",
+    //   link: "subscription",
+    // },
   ];
 
   const openDiscoverMenu = () => {

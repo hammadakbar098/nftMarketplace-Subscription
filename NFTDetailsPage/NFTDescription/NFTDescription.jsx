@@ -201,11 +201,11 @@ const NFTDescription = ({ nft }) => {
           </div>
 
           <div className={Style.NFTDescription_box_profile_biding}>
-            <p>
+            {/* <p>
               <MdTimer /> <span>Auction ending in:</span>
-            </p>
+            </p> */}
 
-            <div className={Style.NFTDescription_box_profile_biding_box_timer}>
+            {/* <div className={Style.NFTDescription_box_profile_biding_box_timer}>
               <div
                 className={
                   Style.NFTDescription_box_profile_biding_box_timer_item
@@ -238,7 +238,7 @@ const NFTDescription = ({ nft }) => {
                 <p>12</p>
                 <span>secs</span>
               </div>
-            </div>
+            </div> */}
 
             <div className={Style.NFTDescription_box_profile_biding_box_price}>
               <div
@@ -246,13 +246,13 @@ const NFTDescription = ({ nft }) => {
                   Style.NFTDescription_box_profile_biding_box_price_bid
                 }
               >
-                <small>Current Bid</small>
+                <small>Current Price</small>
                 <p>
                   {nft.price} ETH <span>( ≈ $3,221.22)</span>
                 </p>
               </div>
 
-              <span>[96 in stock]</span>
+              {/* <span>[96 in stock]</span> */}
             </div>
 
             <div className={Style.NFTDescription_box_profile_biding_box_button}>
@@ -277,35 +277,23 @@ const NFTDescription = ({ nft }) => {
                   classStyle={Style.button}
                 />
               )}
-              <Button
-                icon=<FaPercentage />
-                btnName="Make offer"
-                handleClick={() => {}}
-                classStyle={Style.button}
-              />
-            </div>
-
-            <div className={Style.NFTDescription_box_profile_biding_box_tabs}>
-              <button onClick={(e) => openTabs(e)}>Bid History</button>
-              <button onClick={(e) => openTabs(e)}>Provanance</button>
-              <button onClick={() => openOwmer()}>Owner</button>
             </div>
 
             {history && (
-              <div className={Style.NFTDescription_box_profile_biding_box_card}>
-                <NFTTabs dataTab={historyArray} />
-              </div>
+              <div
+                className={Style.NFTDescription_box_profile_biding_box_card}
+              ></div>
             )}
             {provanance && (
-              <div className={Style.NFTDescription_box_profile_biding_box_card}>
-                <NFTTabs dataTab={provananceArray} />
-              </div>
+              <div
+                className={Style.NFTDescription_box_profile_biding_box_card}
+              ></div>
             )}
 
             {owner && (
-              <div className={Style.NFTDescription_box_profile_biding_box_card}>
-                <NFTTabs dataTab={ownerArray} icon=<MdVerified /> />
-              </div>
+              <div
+                className={Style.NFTDescription_box_profile_biding_box_card}
+              ></div>
             )}
           </div>
         </div>

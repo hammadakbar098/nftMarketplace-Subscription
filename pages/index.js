@@ -44,25 +44,25 @@ const Home = () => {
       <HeroSection />
       <Service />
       <BigNFTSilder NFTData={nfts} />
-      <Title
+      {/* <Title
         heading="Audio Collection"
         paragraph="Discover the most outstanding NFTs in all topics of life."
       />
       <AudioLive />
-      <FollowerTab />
+      <FollowerTab /> */}
       <Slider />
-      <Collection />
+      {/* <Collection /> */}
       <Title
         heading="Featured NFTs"
         paragraph="Discover the most outstanding NFTs in all topics of life."
       />
-      <Filter />
+      {/* <Filter /> */}
       <NFTCard NFTData={nfts} />
-      <Title
+      {/* <Title
         heading="Browse by category"
         paragraph="Explore the NFTs in the most featured categories."
-      />
-      <Category />
+      /> */}
+      {/* <Category /> */}
       <Subscribe />
       <Brand />
       <Video />

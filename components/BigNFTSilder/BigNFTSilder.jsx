@@ -14,11 +14,11 @@ const BigNFTSilder = ({ NFTData }) => {
 
   const sliderData = [
     {
-      title: "Home NFT",
+      title: "A cool panda",
       id: 1,
-      name: "Daulat Hussain",
-      collection: "GYm",
-      price: "00664 ETH",
+      // name: "Daulat Hussain",
+      // collection: "GYm",
+      price: "30ETH",
       like: 243,
       image: images.user1,
       nftImage: images.nft_image_1,
@@ -30,14 +30,14 @@ const BigNFTSilder = ({ NFTData }) => {
       },
     },
     {
-      title: "Home NFT",
+      title: "The Fox",
       id: 2,
       name: "Shoaib Hussain",
       collection: "Home",
       price: "0000004 ETH",
       like: 243,
       image: images.user2,
-      nftImage: images.nft_image_1,
+      nftImage: images.nft_image_2,
       time: {
         days: 77,
         hours: 11,
@@ -46,14 +46,14 @@ const BigNFTSilder = ({ NFTData }) => {
       },
     },
     {
-      title: "Home NFT",
+      title: "The Box",
       id: 3,
       name: "Raayan Hussain",
       collection: "GYm",
       price: "0000064 ETH",
       like: 243,
       image: images.user3,
-      nftImage: images.nft_image_1,
+      nftImage: images.box,
       time: {
         days: 37,
         hours: 20,
@@ -62,14 +62,14 @@ const BigNFTSilder = ({ NFTData }) => {
       },
     },
     {
-      title: "Home NFT",
+      title: "The Car",
       id: 4,
       name: "Raayan Hussain",
       collection: "GYm",
       price: "4664 ETH",
       like: 243,
       image: images.user4,
-      nftImage: images.nft_image_1,
+      nftImage: images.car,
       time: {
         days: 87,
         hours: 29,
@@ -134,20 +134,23 @@ const BigNFTSilder = ({ NFTData }) => {
 
           <div className={Style.bigNFTSlider_box_left_bidding}>
             <div className={Style.bigNFTSlider_box_left_bidding_box}>
-              <small>Current Bid</small>
+              <small>Current Price</small>
               <p>
                 {sliderData[idNumber].price} <span>$221,21</span>
               </p>
             </div>
 
-            <p className={Style.bigNFTSlider_box_left_bidding_box_auction}>
+            {/* <p className={Style.bigNFTSlider_box_left_bidding_box_auction}>
               <MdTimer
                 className={Style.bigNFTSlider_box_left_bidding_box_icon}
               />
               <span>Auction ending in</span>
-            </p>
+            </p> */}
 
-            <div className={Style.bigNFTSlider_box_left_bidding_box_timer}>
+            <div
+              className={Style.bigNFTSlider_box_left_bidding_box_timer}
+              style={{ opacity: 0 }}
+            >
               <div
                 className={Style.bigNFTSlider_box_left_bidding_box_timer_item}
               >
@@ -178,7 +181,7 @@ const BigNFTSilder = ({ NFTData }) => {
             </div>
 
             <div className={Style.bigNFTSlider_box_left_button}>
-              <Button btnName="Place" handleClick={() => {}} />
+              <Button btnName="Buy" handleClick={() => {}} />
               <Button btnName="View" handleClick={() => {}} />
             </div>
           </div>
